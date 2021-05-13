@@ -3,6 +3,6 @@
 int main()
 {
 	setlocale(LC_CTYPE, "Russian");		//для вывода кирилицей  
-	std::cout << "Привет, Мир!" << std::endl;
+	printf("Привет, Мир!\n");
 	return 0;
 }
